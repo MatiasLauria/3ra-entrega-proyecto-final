@@ -4,122 +4,12 @@
     box-sizing: border-box;
 }
 
-nav {
-    .logo { width: 150px;}
-    .nav-link { color: white;}
-}
+@import "./layout/header";
 
+@import "./layout/main";
 
-.carousel {
-    img {
-        max-height: 300px;
-    }
-    h5{
-
-        font-weight: bold;
-        color:black;
-        font-size: 2rem;
-    }
-    p{
-
-        font-weight: bold;
-        color:black;
-    }
-    
-}
-
-
-.products {
-    h2{
-        font-weight: 700;
-        font-size: 2rem;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    }
-    h6 {
-    
-        font-weight: bold;
-    }
-
-    
-
-.card {
-    &:hover{
-        box-shadow: 2px 1px 25px -4px rgba(0,0,0,0.75);
-    -webkit-box-shadow: 2px 1px 25px -4px rgba(0,0,0,0.75);
-    -moz-box-shadow: 2px 1px 25px -4px rgba(0,0,0,0.75);
-    }
-}   
-
-p{
-    font-weight: bold;
-}
-
-
-.btn2 {
-    height: 45px;
-    width: 35%;
-    border: none;
-    outline: none;
-    background-color: purple;
-    color: white;
-    font-weight: 700;
-    border-radius: 60px;
-}
-
-}
+@import "./layout/footer";
 
 
 
-
-
-
-
-
-
-
-main {
-    .card {
-        &:hover{
-            box-shadow: 2px 1px 25px -4px rgba(0,0,0,0.75);
-        -webkit-box-shadow: 2px 1px 25px -4px rgba(0,0,0,0.75);
-        -moz-box-shadow: 2px 1px 25px -4px rgba(0,0,0,0.75);
-        }
-    }   
-}
-
-
-.news {
-     
-        background-color: purple;
-        color: white;
-
-        input {
-            height: 45px;
-            width: 55%;
-            border: 2px solid white;
-            outline: none;
-            margin-top: 20px;
-            font-weight: bold;
-            background: purple;
-            color: white;
-        }
-        .btn3 {
-            height: 45px;
-            width: 100px;
-            background: white;
-            margin-left: -10px;
-            border: 2px solid white;
-            font-weight: bold;
-            color:purple;
-        }
-        p{
-            margin: 0;
-        }
-        .fab {
-            font-size: 2.5rem;
-            cursor: pointer;
-            padding-right: 5px;
-        }
-    
-}
 

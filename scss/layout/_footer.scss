@@ -1,0 +1,34 @@
+.news {
+     
+    background-color: purple;
+    color: white;
+
+    input {
+        height: 45px;
+        width: 55%;
+        border: 2px solid white;
+        outline: none;
+        margin-top: 20px;
+        font-weight: bold;
+        background: purple;
+        color: white;
+    }
+    .btn3 {
+        height: 45px;
+        width: 100px;
+        background: white;
+        margin-left: -10px;
+        border: 2px solid white;
+        font-weight: bold;
+        color:purple;
+    }
+    p{
+        margin: 0;
+    }
+    .fab {
+        font-size: 2.5rem;
+        cursor: pointer;
+        padding-right: 5px;
+    }
+
+}
