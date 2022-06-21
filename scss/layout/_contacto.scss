@@ -1,0 +1,73 @@
+
+  
+.contenedor {
+    background: purple;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    padding: 0 1,5em;
+.content {
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1,5em;
+}
+.titulo {
+    text-align: center;
+    font-size: 3em;
+}
+.caja-contacto {
+    box-shadow: 0 0 20px 0 rgba(255, 255, 255, .3);
+    padding: 1em;
+}
+
+.contact-form{
+    
+    background:purple;
+
+
+    .form {
+        margin: 0;
+    padding: 1em;       
+
+    
+    }
+        input {
+            width: 100%;
+            padding: .7em;
+            border: none;
+            background: none;
+            outline: 0;
+            color: white;
+            border-bottom: 1px solid white;
+        }
+        textarea {
+        width: 100%;
+        padding: .7em;
+        border: none;
+        background: none;
+        outline: 0;
+        color: white;
+        border-bottom: 1px solid white;
+        }
+
+        button {
+            width: 100%;
+            padding: .7em;
+            border: none;
+            background: white;
+            outline: 0;
+            color: purple;
+            border-bottom: 1px solid white;
+            text-transform: uppercase;
+            &:hover {
+                background: pink;
+                 }
+        }
+}
+
+.contact-info {
+    background: white;
+    color: purple;
+}
+
+}
