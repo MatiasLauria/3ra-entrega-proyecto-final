@@ -6,7 +6,7 @@
     font-family: 'Quicksand', sans-serif;
     padding: 0 1,5em;
 .content {
-    max-width: 1170px;
+    max-width: 425px;
     margin-left: auto;
     margin-right: auto;
     padding: 1,5em;
@@ -51,6 +51,7 @@
         }
 
         button {
+            font-weight: bold;
             width: 100%;
             padding: .7em;
             border: none;
@@ -66,8 +67,22 @@
 }
 
 .contact-info {
+
+    font-weight: bold;
     background: white;
     color: purple;
+    h5{text-align: center;
+    margin: 0 0 1rem o;}
+    ul{text-align: center;
+        margin: 0 0 1rem o;
+    list-style: none;
+padding: 0;}
+    p{text-align: center;
+        margin: 0 0 1rem o;}
+li{
+    padding: .3em;
+}
+
 }
 
 }
