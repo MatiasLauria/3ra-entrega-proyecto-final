@@ -14,12 +14,18 @@ nav .nav-link {
 
 .carousel h5 {
   font-weight: bold;
-  color: black;
+  color: purple;
   font-size: 2rem; }
 
 .carousel p {
   font-weight: bold;
   color: black; }
+
+.carousel .c2 {
+  color: black; }
+
+.carousel .carousel-control-prev-icon, .carousel .carousel-control-next-icon {
+  filter: invert(108%); }
 
 .products h2 {
   font-weight: 700;
@@ -74,10 +80,12 @@ main .card:hover {
     color: purple; }
   .news p {
     margin: 0; }
+  .news li {
+    display: inline;
+    list-style: none; }
   .news .fab {
-    font-size: 2.5rem;
-    cursor: pointer;
-    padding-right: 5px; }
+    font-size: 1.5rem;
+    color: white; }
 
 .contenedor {
   background: purple;
